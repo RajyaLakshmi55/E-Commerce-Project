@@ -1,0 +1,48 @@
+/* body{
+    background-image: url(../admin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+.adminlogin , .userLogin{
+    text-align: center;
+    border: solid 1px gray;
+    height: 290px;
+    width: 350px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(206, 239, 166);
+    border-radius: 10px; 
+    box-shadow: 5px 5px 5px rgb(123, 121, 121);
+}
+.adminForm input , .userForm input{
+    border: solid 1px rgb(210, 204, 204);
+    height: 30px;
+    width: 200px;
+    margin-bottom: 7px;
+    border-radius: 7px;
+    padding-left: 10px;
+    background-color: rgb(243, 241, 237);
+    
+}
+.adminForm input::placeholder, .userForm input::placeholder{
+    
+    font-size: 12px;
+    
+}
+
+.adminlogin h1,.userlogin h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(9, 107, 199);
+}
+.loginButton button{
+    margin-top: 10px;
+    border: solid 1px gray;
+    height: 35px;
+    width: 90px;
+    border-radius: 7px;
+    background-color: rgb(49, 183, 232);
+    color: rgb(222, 222, 234);
+    font-size: 15px;
+}

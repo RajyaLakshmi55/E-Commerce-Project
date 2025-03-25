@@ -1,0 +1,61 @@
+.books h1, .readbook h1 , .favourite h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(23, 176, 168);
+    text-shadow: 2px 3px 3px gray;
+    font-weight: bold;
+    
+}
+.bookdata{
+    background-color: rgb(202, 221, 243);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    border: solid 0px gray;
+    height: 350px;
+    width: 50%;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.booking img{
+    margin-top: 25px;
+    margin-left: 20px;
+    border: solid 0px gray;
+    height: 250px;
+    width: 200px;
+}
+.databook{
+    margin-left: 30px;
+}
+.databook h2{
+   
+    font-size: 30px;
+    color: blueviolet;
+}
+.databook button{
+    height: 40px;
+    width: 120px;
+    border: none;
+    margin-left: 15px;
+    border-radius: 10px;
+    color: rgb(237, 240, 243);
+    font-size: 15px;
+    box-shadow: 5px 5px 5px gray;
+    background-color: rgb(71, 131, 234);
+}
+/* ------------------------------------------------------------------------------------ */
+
+.main1{
+    display: flex;
+    border: solid 1px gray;
+    height: 450px;
+    width: 100%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+
+}
+.main1 img{
+    margin-top: 50px;
+}
+
